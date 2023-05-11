@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>tetris 1984</title>
+<style type="text/css">@import "tetris.css";</style>
+<script type="text/javascript" src="tetris.js"></script>
+<script type="text/javascript">
+  if (!document.createElement('canvas').getContext) {
+    window.location = "nocanvas.html";
+  }
+</script>
+</head>
+
+<body onload="setup();">
+<h1><font face="Arial"><font size="5">tetris 1984</font><br>
+<font size="3">tetris</font></font></h1>
+<div class="frame" id="frame">
+<div class="tetris">
+<canvas class="tetris" id="tcanvas"></canvas>
+</div>
+</div>
+</body>
+</html>
